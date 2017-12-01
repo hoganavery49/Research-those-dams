@@ -1,0 +1,28 @@
+body {
+	font-family: verdana;
+  background-color: #ebe1ff;
+}
+
+h1 {
+  margin: 15px;
+  text-decoration: underline;
+}
+
+div {
+  margin: 30px;
+  width: 720px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+button {
+  background-color: #5a37a5;
+  color: white;
+  border-style: solid;
+  border-radius: 8px;
+  height: 40px;
+  width: 250px;
+}
