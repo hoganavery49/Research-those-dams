@@ -1,5 +1,5 @@
 body {
-	font-family: verdana;
+  font-family: verdana;
   background-color: #ebe1ff;
 }
 
@@ -8,7 +8,7 @@ h1 {
   text-decoration: underline;
 }
 
-div {
+.butt {
   margin: 30px;
   width: 720px;
 }
