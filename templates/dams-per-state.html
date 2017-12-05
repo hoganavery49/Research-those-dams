@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% set active_page = "damsPerState" %}
+
+{% block title %}Dams Per State{% endblock %}
+
+{% block content %}
+  <h2>Select a Dam</h2>
+  <form action="/damsPerState">
+    <select name="state">
+      {{ options }}
+    </select>
+    <br><br>
+    <input type="submit">
+  </form>
+  {% if numDams is defined %}
+    <br>
+    <h2>{{ state }}</h2>
+    <p>{{ state }} has {{ numDams }} dams</p>
+  {% endif %}
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% set active_page = "dataByDam" %}
+
+{% block title %}Data By Dam{% endblock %}
+
+{% block content %}
+  <h2>Select a Dam</h2>
+  <form action="/dataByDam">
+    <select name="dam">
+      {{ options }}
+    </select>
+    <br><br>
+    <input type="submit">
+  </form>
+  {% if name is defined %}
+    <br>
+    <h2>{{ name }} Data</h2>
+    <p>{{ name }} was built in {{ year }}, in the state of {{ state }}<p>
+    <p>It is {{ length }} feet long and {{ height }} feet tall</p>
+  {% endif %}
+{% endblock %}

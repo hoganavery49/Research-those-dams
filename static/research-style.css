@@ -1,29 +1,38 @@
 body {
   font-family: verdana;
-  background-color: #ebe1ff;
+  background-color: #FAFAFA;
 }
 
 h2 {
-  margin: 15px;
   text-decoration: underline;
 }
 
-.contentDiv {
-  margin: 30px;
-  width: 720px;
+button {
+  background-color: #5F237D;
+  color: white;
+  border-style: none;
+  border-radius: 8px;
+  height: 40px;
+  width: 300px;
 }
 
-p {
+div p {
+  width: 720px;
   font-size: 17px;
   line-height: 1.8;
 }
 
-button {
-  margin: 15px;
-  background-color: #dcdcdc;
-  color: white;
-  border-style: solid;
-  border-radius: 8px;
-  height: 40px;
-  width: 300px;
+.pageContent {
+  margin: 30px;
+}
+
+.navbar-default {
+  background-color: #F0F0F0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #5F237D;
 }
